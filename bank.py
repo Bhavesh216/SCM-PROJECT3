@@ -27,7 +27,7 @@ def new_acc_details():
 def checking_pin():
     flag = True
     while flag:
-        pin = input("Enter Pin: ")
+        pin = input("Enter Pin =  ")
         if pin == acc_pins[key]:
             flag = False
         else:
