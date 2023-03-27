@@ -1,4 +1,4 @@
-acc_nums = {"cha233": 0, "bha215": 0, "bha216": 0}
+acc_nums = {"cha233": 0, "bha215": 0, "bha216": 0, "bha221" :0}
 acc_pins = {"cha233": "0000", "bha215": "0000", "bha216": "0000"}
 
 
@@ -15,7 +15,7 @@ def printing_stuff():
 def new_acc_details():
     name = input("Enter account holder name : ")
     # age = int(input("Enter your age : "))
-    aadhar_no = input("Enter your aadhar number : ")
+    aadhar_no = input("Enter your aadhar no. : ")
     acc_num = name[:3] + aadhar_no[-3:]
     acc_nums[acc_num] = 0
     set_pin = input("Enter New Pin: ")
